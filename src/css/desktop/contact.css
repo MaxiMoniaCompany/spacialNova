@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+
+
+
+.contact_sections{
+    padding-top:50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.contact_sections .box{
+    width:700px;
+    height:400px;
+    padding:10px;
+}
+.contact_sections .box .input_holder{
+    float:left;
+    line-height:20px;
+}
+.contact_sections .box .input_holder .input{
+    /* padding-left:100px; */
+    padding-top:10px;
+}
+.contact_sections .box .name{
+    float:left;
+}
+.contact_sections .box .input_holder .input input{
+    padding:18px;
+    width:700px;
+    border:1px solid rgb(218, 214, 214);
+    outline:2px solid solid rgba(0, 0, 255, 0.646);
+    outline-offset:2px;font-family: 'Open Sans', sans-serif;
+    border-radius:2px;
+    color:black;
+}
+
+.contact_sections .box .input_holder .input textarea{
+    padding:18px;
+    width:700px;
+    height:100px;
+    border:1px solid rgb(218, 214, 214);
+    border-radius:2px;
+    outline:2px solid solid rgba(0, 0, 255, 0.646);
+    outline-offset:2px;
+    color:black;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.contact_sections .box .input_holder button{
+    padding:15px;
+    background-color:rgb(9, 9, 59);
+    color:white;
+    border-radius:2px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.toper{
+    padding-top:20px;
+}

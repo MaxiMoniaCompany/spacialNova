@@ -1,0 +1,154 @@
+
+
+
+
+
+.m_bks{
+    position: absolute;
+    top:0;
+    left:0;
+    right:55px;
+    height:50vh;
+    background:rgba(0,0,0,0.7) url("../../assets/bkone.jpeg");
+    background-position:top center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+
+
+.m_content{
+    padding-top:70px;
+    padding-left:20px;
+    line-height:40px;width:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.m_title{
+    color:white;
+    width:100%;
+    position: absolute;
+}
+
+.m_title h1{
+    font-size:40px;
+}
+.m_title span{
+    font-size:20px;
+}
+
+.m_content .button{
+    position: absolute;
+    top:200px;
+}
+.m_content .button button{
+    padding:15px;
+    margin:4px;
+    border: none;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+}
+
+.m_content button:hover{
+    animation:blink 1s;
+}
+
+.m_content .button #active{
+    background-color:white;
+    color:black;
+}
+
+
+
+
+
+
+
+
+.m_bks_two{
+    position: absolute;
+    top:350px;
+    left:90px;
+    right:0;
+    height:55vh;
+    background:rgba(0,0,0,0.7) url("../../assets/drone.jpeg");
+    background-position:top center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.m_contents{
+    position: absolute;
+    left:22px;
+    top:400px;
+}
+
+.m_contents .m_intro {
+    line-height:20px;
+    color:white;
+}
+
+.m_contents .m_intro span{ 
+    color:rgb(101, 134, 233);
+}
+
+.m_contents .m_intro h1{
+    color:white;
+    font-size:35px;
+    line-height:20px;
+}
+
+
+.m_contents .m_intro .boxer{
+    width:310px;
+    height: 140px;
+    font-size:13px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.261);
+    backdrop-filter:blur(10px);
+}
+
+
+.m_contents .m_intro .button {
+    float:right;
+    padding-top:4px;
+}
+
+.m_contents .m_intro .button button{
+    padding:15px;
+    margin:4px;
+    border: none;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+}
+
+
+
+.m_contents .m_intro button:hover{
+    animation:blink 1s;
+}
+
+.m_contents .m_intro .button #active{
+    background-color:white;
+    color:black;
+}
+
+
+
+
+
+
+.next_layout{
+    padding-top:740px;
+    color:black;
+}
+
+.next_layout .tit{
+    font-size:15px;
+}
+.next_layout .tit span{
+    color:blue;
+}
