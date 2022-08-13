@@ -1,0 +1,267 @@
+
+
+
+
+
+
+
+.next-layout{
+    height:700px;
+    width:100%;
+}
+
+
+.left-lay{
+    float:left;
+}
+.upright-content{
+    writing-mode: vertical-lr;
+    padding-top:60px;
+    float:left;
+}
+.cont{
+    float:left;
+    padding-left:120px;
+    padding-top:200px;
+    width:650px;
+}
+.cont h1{
+    font-size:60px;
+    font-weight:bold
+}
+.cont h1 span{
+    color:blue;
+}
+.cont p{
+    line-height:20px;
+}
+
+.cont button{
+    padding:24px;
+    margin:5px;
+    width:200px;
+    font-size:15px;
+    border:none;
+    background-color:black;
+    border:1px solid white;
+    color:white;
+}
+.cont button:hover{
+    animation:blink 1s;
+    background-color:white;
+    color:black;
+}
+
+.cont #active{
+    background-color:white;
+    color:black;
+    border:1px solid black;
+}
+
+.row{
+
+}
+
+
+.column{
+    float:left;
+    margin:5px;
+    width:180px;
+    height:40px;
+}
+.column img{
+    width:160px;
+}
+.column p::before{
+    background-color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-lay{
+    float:right;
+}
+.container-bk{
+    width:780px;
+    height:700px;
+    background-color:wheat;
+}
+
+.displacement{
+    padding-right:20px;
+    padding-top:30px;
+    position: absolute;
+    right:50px;
+}
+.cont-bk{
+    width:760px;
+    height:700px;
+    background-image:url("../../assets/drone.jpeg");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.artemis{
+    padding-top:130px;
+    line-height:20px;
+}
+.artemis .titless{
+    padding-left:150px;
+}
+.artemis .next-title{
+    float:right;
+}
+.artemis .titless h1{
+    font-size:50px;
+}
+.artemis .titless span{
+    color:blue;
+}
+.artemis .img{
+    padding-left:12px;
+}
+.artemis img{
+    width:1400px;
+    border-radius:10px;
+}
+
+
+
+
+
+
+
+
+.artemis-two{
+    padding-top:40px;
+}
+.artemis-two .titless{
+    padding-left:150px;
+}
+.artemis-two .next-title h1{
+    font-size:70px;
+}
+
+
+
+
+
+
+
+
+
+.right-lay2{
+    float:left;
+    height:600px;
+}
+.container-bk2{
+    width:780px;
+    height:700px;
+    background-color:orange;
+}
+
+.displacement2{
+    padding-right:20px;
+    padding-top:30px;
+    position: absolute;
+    left:50px;
+}
+.cont-bk2{
+    width:760px;
+    height:700px;
+    background-image:url("../../assets/option.png");
+    background-size: cover;
+}
+
+
+
+.cont2{
+    float:left;
+    padding-left:120px;
+    padding-top:200px;
+    width:650px;
+    height:600px;
+}
+
+
+
+.cont2 h1{
+    font-size:60px;
+    font-weight:bold
+}
+.cont2 h1 span{
+    color:blue;
+}
+.cont2 p{
+    line-height:20px;
+}
+
+.cont2 button{
+    padding:24px;
+    margin:5px;
+    width:200px;
+    font-size:15px;
+    border:none;
+    background-color:black;
+    border:1px solid white;
+    color:white;
+}
+.cont2 button:hover{
+    animation:blink 1s;
+    background-color:white;
+    color:black;
+}
+
+
+.cont2 #active{
+    background-color:white;
+    color:black;
+    border:1px solid black;
+}
+
+.row{
+
+}
+
+
+.column{
+    float:left;
+    margin:5px;
+    width:180px;
+    height:40px;
+}
+.column img{
+    width:160px;
+}
